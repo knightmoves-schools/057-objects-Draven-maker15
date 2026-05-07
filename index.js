@@ -1,6 +1,6 @@
 const school = {
-  'name': "Your School Name",
+  name: "Your School Name",
   'average_class_size': 25,
-  'mascot': "Warriors" ,
+  mascot: "Warriors" ,
 };
-document.getElementById("result").innerHTML = "${name} has an average class size of ${average_class_size} and their mascot is a ${mascot}";
+document.getElementById("result").innerHTML = `${school.name} has an average class size of ${school[average_class_size]} and their mascot is a ${school.mascot}`;
